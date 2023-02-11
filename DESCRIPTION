@@ -1,0 +1,16 @@
+Package: MTDSemiPKPD
+Type: Package
+Title: PKPD Based Design for MTD Finding
+Version: 0.1.0
+Author: Chia-Wei Hsu, Xiao Su, Haitao Pan, Yisheng Li
+Maintainer: Chia-Wei Hsu <Chia-Wei.Hsu@stjude.org>
+Description: A semi-mechanistic dose-finding design in oncology using pharmacokinetic/pharmacodynamic modeling.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+Imports: Rcpp
+Depends: foreach, plyr, survival, coda, cubature, MASS, BOIN, deSolve,
+        bcrm, parallel, R (>= 2.10)
+NeedsCompilation: yes
+Packaged: 2022-10-21 15:57:54 UTC; chsu1
