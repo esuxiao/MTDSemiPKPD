@@ -1,5 +1,5 @@
 #exportPattern("^[[:alpha:]]+")
-useDynLib("MTDfind")
+useDynLib("MTDSemiPKPD")
 importFrom("Rcpp", "sourceCpp")
 importFrom("stats", "optim", "rbinom", "rnorm", "uniroot", "window")
 importFrom("utils", "tail")
