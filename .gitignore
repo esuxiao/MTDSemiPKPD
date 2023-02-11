@@ -49,3 +49,7 @@ vignettes/*.pdf
 
 # log file for R CMD check
 *.log
+
+# dev folder which saves the develop scripts
+./dev 
+./test 
