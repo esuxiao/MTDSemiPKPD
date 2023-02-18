@@ -27,7 +27,7 @@ get_OC_MTD<-function(ii, ToxicityWindow, TotaldoseMat, AdmTime, Toxtarget, Cohor
 
 
   ### need tp be defined in the function
-  PKobstime=c(1,3,5,10,12,24)/(24)
+  PKobstime <- c(1,3,5,10,12,24)/(24)
   Tox=PK=list()
   Tox$fun=Toxicity_5PL_IVFun_ind
   PK$fun=Ct_IV_ind
