@@ -41,6 +41,11 @@ f_Emax_IV_ind <- function(t, s, d, parmPK, parmPD) {
     .Call('_MTDSemiPKPD_f_Emax_IV_ind', PACKAGE = 'MTDSemiPKPD', t, s, d, parmPK, parmPD)
 }
 
+
+
+
+
+
 Gibbs_Emax_IV_MTD <- function(data, initPK, initPD, initSD, samplesize, limit, tuning, lowerbound, SliceSampleSize) {
     .Call('_MTDSemiPKPD_Gibbs_Emax_IV_MTD', PACKAGE = 'MTDSemiPKPD', data, initPK, initPD, initSD, samplesize, limit, tuning, lowerbound, SliceSampleSize)
 }
